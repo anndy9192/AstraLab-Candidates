@@ -18,11 +18,78 @@ TSH, Technical Skills Hunter es una aplicación web que permite reducir el tiemp
 
 ## ¿Qué necesidades satisface TSH?
 - Reducción de tiempos tanto para el personal de RH como para los postulantes en las primeras etapas del proceso de reclutamiento.
-- Postulación de vacantes a diversas plataformas de trabajo con un solo botón.
+- Postulación de vacantes en diversas plataformas de trabajo con un solo botón.
 - Interfaz amigable e intuitiva.
-- Aplicación de tests y calificación de los mismos en forma automática.
+- Aplicación de tests y calificación de los mismos de forma automática.
 - Registro y almacenamiento de la información de cada postulante en una base de datos.
 - Visualización eficiente de candidatos filtrados por puntajes obtenidos en el test.
+
+---
+
+## Historias de usuario
+### Historia de usuario 1
+  Usuario requiere poder enviar una vacante a todos los sitios/plataformas de trabajo por medio de una sola Web App.
+  - DoD:
+    - Pantalla de inicio con botón para cambiar a la sección correspondiente.
+    - Formulario para escribir mensaje con la vacante.
+    - Check box de las plataformas disponibles.
+    - Función para postear la vacante en las diverses plataformas seleccionadas.
+    - Modal/Alerta de vacante posteada exitosamente.
+    - Validaciones de todos los campos (no vacíos).
+### Historia de usuario 2
+  Usuario requiere una plataforma que agilice el proceso técnico de selección y reclutamiento, para la postulación de vacantes, revisión y clasificación de los candidatos
+  - DoD:
+    - Pantalla de inicio con 2 botones (posiciones vacantes y candidatos).
+    - Contener entre 5 y 6 pantallas para visualizar la información.
+    - Crear base de datos en Firebase.
+    - Conexión con la base de datos.
+### Historia de usuario 3
+  Usuario requiere filtrar la información de los postulantes con base a los resultados y nivel de inglés.
+    - DoD:
+    - Pantalla con 4 filtros (junior, consultor, senior y no level).
+    - Función para traer la información de la base de datos y filtrarla.
+### Historia de usuario 4
+  Usuario requiere visualizar a detalle los datos y cada uno de los resultados obtenidos por el postulante.
+  - DoD:
+    - Sección para ver la información individual de cada postulante.
+    - Función para traer la información de la base de datos y filtrarla de manera individual.
+### Historia de usuario 5
+  Usuario requiere mediante datos de la WebApp citar a los postulantes.
+  - DoD:
+    - Botón para enviar mensaje.
+    - Función para enviar mensaje/correo a postulante.
+### Historia de usuario 6
+  Postulante requiere aplicar a una vacante mediante la Web App con un registro muy básico.
+  - DoD:
+    - Pantalla de inicio con botón de registro para cambiar a la sección correspondiente.
+    - Formulario de registro con 4 campos incluyendo opción para adjuntar archivos .pdf.
+    - Botón de continuar.
+### Historia de usuario 7
+  Postulante requiere poder escoger el nivel de conocimientos/postulación para iniciar el test.
+  - DoD:
+    - Pantalla con instrucciones.
+    - Pantalla con niveles para elegir.
+    -Función para mostrar las preguntas y ejercicios del nivel seleccionado.
+### Historia de usuario 8
+  Postulante requiere contestar preguntas teóricas que le permitan agilizar su proceso de selección en la compañía solicitada.
+  - DoD:
+    - Pantalla con todas las preguntas listadas y respuestas de opciones múltiples.
+### Historia de usuario 9
+  Postulante requiere contestar ejercicios técnicos que le permitan agilizar su proceso de selección en la compañía solicitada.
+  - DoD:
+    - Pantalla que muestra ejercicio de uno en uno.
+    - Función para mostrar ejercicios técnicos de forma aleatoria.
+    - Botón de terminar al final del último ejercicio.
+### Historia de usuario 10
+  Postulante requiere poder enviar sus respuestas en cualquier momento que desee.
+  - DoD:
+    - Botón de Siguiente y botón de enviar resultados(hasta ese momento) en cada uno de los ejercicios.
+### Historia de usuario 11
+  Postulante requiere poder enviar sus respuestas y escribir un comentarios acerca de su experiencia durante todo el test.
+  - DoD:
+    - Campo para escribir comentarios (opcional).
+    - Botón de enviar respuestas.
+    - Función para enviar toda la información a la base de datos.
 
 ---
 
