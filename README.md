@@ -1,4 +1,4 @@
-![TSH](https://i.ibb.co/FWzkwBj/tshIcon.png)
+![TSH](https://i.ibb.co/7YjysWD/tsh-Iconshort.png)
 
 ## Índice
 - [Introducción](#introducción)
@@ -13,6 +13,16 @@
 
 ## Introducción
 TSH, Technical Skills Hunter es una aplicación web que permite reducir el tiempo de selección y reclutamiento en sus primeras etapas al aplicar test básicos de programación, calificarlos de forma automática y mostrando los resultados filtrados y clasificados según el nivel de experiencia. Cuenta con dos interfaces, la primera para el personal de Recursos Humanos y la segunda para los candidatos o postulantes.
+
+---
+
+## ¿Qué necesidades satisface TSH?
+- Reducción de tiempos tanto para el personal de RH como para los postulantes en las primeras etapas del proceso de reclutamiento.
+- Postulación de vacantes a diversas plataformas de trabajo con un solo botón.
+- Interfaz amigable e intuitiva.
+- Aplicación de tests y calificación de los mismos en forma automática.
+- Registro y almacenamiento de la información de cada postulante en una base de datos.
+- Visualización eficiente de candidatos filtrados por puntajes obtenidos en el test.
 
 ---
 
