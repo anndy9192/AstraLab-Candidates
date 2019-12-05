@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import WelcomeScreen from './components/WelcomeScreen.js';
+import IndicationsScreen from './components/IndicationsScreen.js';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <section className="mainComponent">
+      <WelcomeScreen/>
+      <IndicationsScreen/>
+    </section>
   );
 }
 
