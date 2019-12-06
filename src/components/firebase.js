@@ -1,7 +1,6 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+import * as firebase from "firebase";
 
-var firebaseConfig = {
+firebase.initializeApp({
   apiKey: "AIzaSyCNF7Ripu9p3_0CJta2WmYzPAklqipUepM",
   authDomain: "astralab-003.firebaseapp.com",
   databaseURL: "https://astralab-003.firebaseio.com",
@@ -9,9 +8,13 @@ var firebaseConfig = {
   storageBucket: "astralab-003.appspot.com",
   messagingSenderId: "411705174588",
   appId: "1:411705174588:web:ac03d97cd62bb3f499b139"
-};
+})
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+let firestore=firebase.firestore()
+firestore.settings({timestampsInSnapshots:true})
 
-export default firebase;
+
+export default firestore;
+
+
 
