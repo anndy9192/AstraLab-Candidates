@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firestore from './firebase';
 import { Link } from "react-router-dom";
+import './Questions.css';
 
 class Questions extends Component {
 
@@ -27,25 +28,32 @@ class Questions extends Component {
       }
       return (
 
-        <div className="container">
+        <div className="questionContainer">
+          <img className="companyLogo" src={require('../images/astraLogo.png')} alt="Company logo"></img>
+          <h1 className="titles"> QUESTIONS</h1>
           {randomQuestions.map((question) =>
             <div className="main_container" key={question.id}>
-              <p>Question: {question.Question}</p>
-              <div className="answers_container">
-                {question.Answers.map((answer) =>
-                  <label>
-                    <input type="radio" value={answer} name={question.id} />{answer}
-                  </label>
-                )}
+              <div className="questionAndAnswers">
+                <p className="questionTitle">Question: {question.Question}</p>
+                <div className="answers_container">
+                  <p>
+                  {question.Answers.map((answer) =>
+                    <label>
+                      <ul><input type="radio" value={answer} name={question.id} />{answer}</ul>
+                    </label>
+                  )}
+                </p>
               </div>
-              <br />
+            </div>
             </div>
           )}
-          <Link to="/FinalScreen">
-          <button>
-            Siguiente
-          </button>
-          </Link>
+          <div className="nextBtnContainer">
+            <Link to="/FinalScreen">
+            <button className="nextBtn">
+              NEXT
+            </button>
+            </Link>
+          </div>
         </div>
 
       )
