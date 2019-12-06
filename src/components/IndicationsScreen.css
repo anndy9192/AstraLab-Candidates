@@ -1,0 +1,60 @@
+.indicationsContainer {
+    align-items: center;
+    grid-template-rows: 9% 20% 50% 15%;
+    grid-template-columns: 100%;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+}
+.companyLogo {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 12%;
+    justify-self: end;
+    margin-right: 30px;
+}
+.titles {
+    color: #FFFFFF;
+    font-size: 70px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 52%;
+    height: auto;
+    justify-self: start;
+    background-color: #000000;
+    text-align: end;
+    padding: 12px 30px 12px 0;
+}
+.indications {
+    font-size: 21px;
+    margin: 40px 0;
+    text-align: justify;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    align-self: start;
+    width: 75%;
+    justify-self: center;
+}
+.btnsInContainer {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    justify-self: center;
+}
+.returnBtn, .startTestBtn {
+    border: none;
+    border-radius: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-align: center;
+    width: auto;
+    margin: 15px;
+}
+.returnBtn {
+    background: #4C4C4C;
+}
+.startTestBtn {
+    background: #F27E63;
+}

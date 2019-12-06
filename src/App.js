@@ -1,13 +1,16 @@
 import React from 'react';
-import Form from './components/form'
 import './App.css';
+import WelcomeScreen from './components/WelcomeScreen.js';
+import Form from './components/form'
+import IndicationsScreen from './components/IndicationsScreen.js';
 
 function App() {
   return (
-     <div className="App">
+    <section className="mainComponent">
+      <WelcomeScreen/>
       <Form/>
-     </div>
-
+      <IndicationsScreen/>
+    </section>
   );
 }
 
