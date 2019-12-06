@@ -6,10 +6,10 @@ import Questions from './components/Questions';
 import FinalScreen from './components/FinalScreen';
 import Problems from './components/Problems';
 import Problems2 from './components/Problems2';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 const Routes = () => (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
    <Switch>
         <Route exact path="/form" component={Form}/>
         <Route exact path="/IndicationsScreen" component={IndicationsScreen}/>
@@ -19,7 +19,7 @@ const Routes = () => (
         <Route exact path="/FinalScreen" component={FinalScreen}/>
         <Route exact path="/" component={WelcomeScreen}/>
     </Switch>
-    </BrowserRouter>
+    </HashRouter>
 )
 
 export default Routes
