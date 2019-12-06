@@ -7,8 +7,10 @@ function IndicationsScreen () {
     <div className="indicationsContainer">
       <img className="companyLogo" src={require('../images/astraLogo.png')} alt="Company logo"></img>
       <h1 className="titles"> INDICATIONS</h1>
-      <p className="indications">Welcome to the technical test, the time will start running once you press the 
-      START TEST button. You'll find the first section with theoretical questions, then the code exercises will </p>
+      <p className="indications">Welcome to the technical test, it will start once you press the 
+      START TEST button and you will have 30 minutes to answer. You'll find the first section with 
+      theoretical questions, then the code exercises will appear one by one and you won't be able to 
+      return to the previous exercises.</p>
       <div className="btnsInContainer">
         <button className="returnBtn">RETURN</button>
         <button className="startTestBtn">START TEST</button>

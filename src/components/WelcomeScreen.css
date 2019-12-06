@@ -10,9 +10,9 @@
 .candLogo {
     grid-column-start: 1;
     grid-row-start: 1;
-    align-self: center;
     justify-self: center;
     width: 45%;
+    margin-top: 30px;
 }
 .postulateBtn {
     grid-column-start: 1;
