@@ -1,7 +1,9 @@
 import React from 'react';
 import './FinalScreen.css';
+import { Link } from "react-router-dom";
 
 function FinalScreen () {
+
     return (
       <div className="finalContainer">
         <div className="textFinalContainer">
@@ -12,9 +14,14 @@ function FinalScreen () {
             your experience in this process, all the feedback is welcome.`}</p>
             <label htmlFor='comment'>Comments (optional): </label><br></br>
             <textarea name='comment' id='comment' className='comment' type='text' placeholder="Write a comment..."/>
-        </div>
-        <button className="sendResultsBtn">SEND RESULTS</button>
+        </div> 
+        <div>
+        <Link to='/'>
+        <button className="sendResultsBtn" onClick={()=>alert("Your results have been sent")}>SEND RESULTS</button>
+        
+        </Link>
         <img className="tshLogo" src={require('../images/tshLogo.png')} alt="TSH logo"></img>
+        </div>
       </div>
     );
   }
