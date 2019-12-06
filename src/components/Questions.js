@@ -48,7 +48,7 @@ class Questions extends Component {
             </div>
           )}
           <div className="nextBtnContainer">
-            <Link to="/FinalScreen">
+            <Link to="/Problems">
             <button className="nextBtn">
               NEXT
             </button>
