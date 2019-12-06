@@ -9,7 +9,7 @@ import Problems2 from './components/Problems2';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
 const Routes = () => (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
    <Switch>
         <Route exact path="/form" component={Form}/>
         <Route exact path="/IndicationsScreen" component={IndicationsScreen}/>
