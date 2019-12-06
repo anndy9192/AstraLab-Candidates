@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './IndicationsScreen.css';
 
 function IndicationsScreen () {
@@ -16,8 +16,12 @@ function IndicationsScreen () {
       have the choice to send your results at the point that you want. Be aware that you can only apply two times and
        in the third attempt your account will be blocked.`}</p>
       <div className="btnsInContainer">
+      <Link to="/">
         <button className="returnBtn">RETURN</button>
+        </Link>
+        <Link to="/Questions">
         <button className="startTestBtn">START TEST</button>
+        </Link>
       </div>
     </div>
   );
