@@ -3,14 +3,13 @@ import './App.css';
 import WelcomeScreen from './components/WelcomeScreen.js';
 import Form from './components/form'
 import IndicationsScreen from './components/IndicationsScreen.js';
+import Router from './router';
 
 function App() {
   return (
-    <section className="mainComponent">
-      <WelcomeScreen/>
-      <Form/>
-      <IndicationsScreen/>
-    </section>
+    <div>
+      <Router />
+    </div>
   );
 }
 
