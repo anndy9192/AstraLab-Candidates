@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './IndicationsScreen.css';
 
 function IndicationsScreen () {
@@ -12,8 +12,12 @@ function IndicationsScreen () {
       theoretical questions, then the code exercises will appear one by one and you won't be able to 
       return to the previous exercises.</p>
       <div className="btnsInContainer">
+      <Link to="/">
         <button className="returnBtn">RETURN</button>
+        </Link>
+        <Link to="/Questions">
         <button className="startTestBtn">START TEST</button>
+        </Link>
       </div>
     </div>
   );
