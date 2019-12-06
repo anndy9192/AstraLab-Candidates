@@ -14,11 +14,13 @@
     width: 45%;
     margin-top: 30px;
 }
-.postulateBtn {
+.btnsWelContainer {
     grid-column-start: 1;
     grid-row-start: 2;
-    align-self: end;
     justify-self: center;
+    align-self: end;
+}
+.postulateBtn {
     background: #FFFFFF;
     border: none;
     border-radius: 7px;

@@ -6,9 +6,11 @@ function WelcomeScreen () {
   return (
     <div className="welcomeContainer">
       <img className="candLogo" src={require('../images/candidatesLogo.png')} alt="Candidates logo"></img>
-      <Link to="/IndicationsScreen">
-      <button className="postulateBtn">POSTULATE</button>
-      </Link>
+      <div className="btnsWelContainer">
+        <Link to="/IndicationsScreen">
+        <button className="postulateBtn">POSTULATE</button>
+        </Link>
+      </div>
       <img className="tshLogo" src={require('../images/tshLogo.png')} alt="TSH logo"></img>
     </div>
   );
