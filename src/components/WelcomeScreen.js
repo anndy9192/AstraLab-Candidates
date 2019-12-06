@@ -13,5 +13,5 @@ function WelcomeScreen () {
     </div>
   );
 }
-//<p className="changeLanguage"><Link to="/portafolioEnEspañol" className="links">Spanish Version</Link></p>
+
 export default WelcomeScreen;
