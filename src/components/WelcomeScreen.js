@@ -7,7 +7,7 @@ function WelcomeScreen () {
     <div className="welcomeContainer">
       <img className="candLogo" src={require('../images/candidatesLogo.png')} alt="Candidates logo"></img>
       <div className="btnsWelContainer">
-        <Link to="/IndicationsScreen">
+        <Link to="/form">
         <button className="postulateBtn">POSTULATE</button>
         </Link>
       </div>

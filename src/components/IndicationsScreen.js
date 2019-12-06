@@ -16,7 +16,7 @@ function IndicationsScreen () {
       have the choice to send your results at the point that you want. Be aware that you can only apply two times and
        in the third attempt your account will be blocked.`}</p>
       <div className="btnsInContainer">
-      <Link to="/">
+      <Link to="/form">
         <button className="returnBtn">RETURN</button>
         </Link>
         <Link to="/Questions">
@@ -26,5 +26,5 @@ function IndicationsScreen () {
     </div>
   );
 }
-//<p className="changeLanguage"><Link to="/portafolioEnEspañol" className="links">Spanish Version</Link></p>
+
 export default IndicationsScreen;

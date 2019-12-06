@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './form.css';
 
 class Form extends React.Component{
@@ -57,8 +58,12 @@ class Form extends React.Component{
             </div>
             </div>
             <div className="btnsInContainer">
-              <button className="returnBtn">RETURN</button>
-              <button className="continueBtn">CONTINUE</button>
+              <Link to="/">
+                <button className="returnBtn">RETURN</button>
+                </Link>
+              <Link to="/IndicationsScreen">
+                <button className="continueBtn">CONTINUE</button>
+              </Link>
             </div>
             <div>
             {/* <p>{JSON.stringify(this.state)}</p> */}
