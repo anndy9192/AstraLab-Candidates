@@ -15,10 +15,10 @@
 }
 .titles {
     color: #FFFFFF;
-    font-size: 70px;
+    font-size: 60px;
     grid-column-start: 1;
     grid-row-start: 2;
-    width: 52%;
+    width: 53%;
     height: auto;
     justify-self: start;
     background-color: #000000;
@@ -50,7 +50,7 @@
     padding: 15px 25px;
     text-align: center;
     width: auto;
-    margin: 15px;
+    margin: 30px;
 }
 .returnBtn {
     background: #4C4C4C;

@@ -3,6 +3,7 @@ import './App.css';
 import WelcomeScreen from './components/WelcomeScreen.js';
 import Form from './components/form'
 import IndicationsScreen from './components/IndicationsScreen.js';
+import FinalScreen from './components/FinalScreen';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <WelcomeScreen/>
       <Form/>
       <IndicationsScreen/>
+      <FinalScreen/>
     </section>
   );
 }
